@@ -9,7 +9,7 @@ class DB_Connect
 	{
 		try
 		{
-			$this->conn = new PDO("sqlsrv:Server=IBSS00105\SQLEXPRESS;Database =test","sa","pass@word1");
+			$this->conn = new PDO("sqlsrv:Server=IBSS00105\SQLEXPRESS;Database =test","sa","XXXXXXX");
 		   $this->conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 		
 	    }catch(Exception $ex)
